@@ -1,1 +1,20 @@
-#hi
+Google Trends Data Analysis using Python.
+
+Analyse trends data for a specific keyword ("Python") using Python. This analysis includes examining the interest over time, interest by region, related queries and keyword suggestions.
+
+Finding insights into the popularity and search behaviour with the associated keyword.
+
+Technologies used:
+  pytrends (for interacting with Google Trends API)
+  pandas (for data manipulation)
+  matplotlib (for data visualization)
+  seaborn (for data visualization)  
+
+1. used the pytrends library to initialize the connection to Googel Trends
+2. specified the keywords to analyse alon gwith other parameters.
+3. retrieved the interest over time for the specified keyword and visualized the interest over time using line plot.4
+4. retrieved the interest by region for the specified keyword and visualized the interest by region using a bar plot, focusing on the top regions with the highest interest.
+5. retrieved related queries for the specified keyword. Converted the related queries data into a pandas DataFrame. Visualized the top related queries using a bar plot.
+6. retrieved keyword suggestions related to the specified keyword. Converted the suggestions data into a pandas DataFrame for further exploration.
+
+
